@@ -1,0 +1,3 @@
+[submodule "repo/script.globalsearch"]
+	path = repo/script.globalsearch
+	url = https://github.com/mcdamo/script.globalsearch
