@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.mcdamo" name="mcdamo's Kodi Addon Repository" version="1.0.0" provider-name="mcdamo">
-    <extension point="xbmc.addon.repository" name="mcdamo's Kodi Addon Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>mcdamo's Kodi Addon Repository</summary>
-        <description>mcdamo's Kodi Addons</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.globalsearch" name="Global Search [MOD]" version="9.1.1" provider-name="mcdamo">
+<addon id="script.globalsearch" name="Global Search [MOD]" version="9.2.0" provider-name="mcdamo">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -98,5 +78,25 @@
 - add support for toggling listing of unwatched videos
 </news>
 	</extension>
+</addon>
+
+<addon id="repository.mcdamo" name="mcdamo's Kodi Addon Repository" version="1.0.0" provider-name="mcdamo">
+    <extension point="xbmc.addon.repository" name="mcdamo's Kodi Addon Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mcdamo/mcdamo-kodi-addons/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>mcdamo's Kodi Addon Repository</summary>
+        <description>mcdamo's Kodi Addons</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
