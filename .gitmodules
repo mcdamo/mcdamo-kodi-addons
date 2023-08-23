@@ -1,3 +1,9 @@
 [submodule "repo/script.globalsearch"]
 	path = repo/script.globalsearch
 	url = https://github.com/mcdamo/script.globalsearch
+[submodule "repo/script.extras.tags"]
+	path = repo/script.extras.tags
+	url = https://github.com/mcdamo/kodi.script.extras.tags.git
+[submodule "repo/context.item.extras.mod"]
+	path = repo/context.item.extras.mod
+	url = https://github.com/mcdamo/kodi.context.item.extras.mod
